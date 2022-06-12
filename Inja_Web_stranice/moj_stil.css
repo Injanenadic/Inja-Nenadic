@@ -1,0 +1,77 @@
+body {
+  background-color: lightblue;
+}
+
+/* Naslov razine 1 */
+h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	color: navy;
+	margin-left: 20px;
+}
+
+/* Naslov razine 2 */
+h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	color: purple;
+	margin-left: 20px;
+}
+
+/* Paragraf */
+p {
+	color: blue;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 16px;
+	width: 75%;
+	background-color: antiquewhite;
+	padding: 20px;
+}
+
+/* Drugi paragraf (kad je potrebno nešto dodatno naglasiti) */
+.drugiParagraf{
+	color: darkcyan;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+span {color: red;}
+
+.noviBlok{
+	background-color: rgba(255, 255, 255, 0.5);
+	padding: 20px;
+	margin: 20px;
+	width:25%;
+}
+
+/* prva pozadina */
+.prvaPozadina{
+	background-image: url("datoteke/slike/treca_pozadinska_slika.jpg");
+}
+
+/* druga pozadina - ako je potrebna na drugoj web stranici */
+.drugaPozadina{
+	background-image: url("datoteke/slike/cetvrta_pozadinska_slika.jpg");
+}
+
+.pozadinaBlok{
+	background-color: rgba(255, 255, 255, 0.5);
+	width:75%;
+}
+
+/* link (poveznica) */
+a:link {
+	color: black;
+	background-color: white;
+	padding: 5px;
+	line-height: 25px;
+	border: 1px solid #000000;
+}
+
+/* link (poveznica) kad je iznad njega strelica miša */
+a:hover {
+	background-color: darkgray;
+}
+
+/* slika */
+img {
+	height: 300px;
+}
